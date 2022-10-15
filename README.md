@@ -12,7 +12,7 @@ https://opendev.org/
 
 >The difference is subtle, but significant. In the pull request model, you create a fork of the original repository, push changes to it, and ultimately propose to merge changes back. In the change proposal model, you prepare a change, and propose it. You do not create a complete fork and everyone contributes into the same original repository **with what are basically lightweight, ephemeral topic branches. It results in less fragmentation overall, and avoids confusion between the original repository and its numerous forks.**
 
-> #Integrated Continuous Integration
+# Integrated Continuous Integration
 >One key benefit of OpenDev is that it integrates powerful continuous integration features, made possible by the donation of compute resources from our generous infrastructure partners. Test jobs are run when changes are proposed and provide code reviewers with valuable information. Test jobs also run again at merge time, in case recently approved changes introduce an incompatibility, preventing code which doesn't pass tests from merging to the repository.
 >
 >Advanced Zuul features like speculative execution of tests allow the testing of sequenced changes in parallel, so development velocity is rarely limited by how thorough you want your tests to be. Changes in one Git repository can depend on proposed changes in another repository, allowing integration testing of features actively developed across multiple projects, removing artificial barriers between development teams.
